@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Carlos González">
+	<title>Piedra,papel o tijera | Juego</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/x-icon" href="imagenes/logo.png">
+</head>
+<body>
+	<header>
+		<h1>Piedra, papel o tijera</h1>
+	</header>
+
+	<div class="marcador">
+		<div id="tu" class="marcadores">Tú</div>
+		<div id="pc" class="marcadores">PC</div>
+		<span id="puntostu">0</span>-<span id="puntospc">0</span>
+	</div>
+
+	<div class="resultado">
+		<p>Empieza a jugar. ▶️</p>
+	</div>
+
+	<div class="elecciones">
+		<div class="eleccion" id="p">
+			<img src="imagenes/piedra.png" alt="piedra" width="75px" height="75px">
+		</div>
+		<div class="eleccion" id="pa">
+			<img src="imagenes/papel.png" alt="papel" width="75px" height="75px">
+		</div>
+		<div class="eleccion" id="t">
+			<img src="imagenes/tijeras.png" alt="tijera" width="75px" height="75px">
+		</div>
+	</div>
+
+	<p id="mensaje-accion">Elije tu siguiente movimiento.</p>
+	<script src="app.js" charset="utf-8"></script>
+
+
+</body>
+</html>
